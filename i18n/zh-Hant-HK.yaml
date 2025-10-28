@@ -6,38 +6,27 @@ darkMode:
 
 list:
     page:
-        other: "共 {{ .Count }} 項"
-
+        other: 共 {{ .Count }} 項
     section:
-        other: 區段
-
+        other: 區域
     subsection:
-        other: 子段
+        other: 子區域
 
 article:
     back:
         other: 返回
-
     tableOfContents:
         other: 目錄
-
     relatedContent:
         other: 相關文章
-
     lastUpdatedOn:
         other: 最後更新
-
     readingTime:
-        other: "閱讀時間：{{ .Count }} 分鐘"
-
-archives:
-    categories:
-        other: 分類
+        other: 閱讀時間：{{ .Count }} 分鐘
 
 notFound:
     title:
         other: 找不到
-
     subtitle:
         other: 頁面不存在
 
@@ -45,7 +34,6 @@ widget:
     archives:
         title:
             other: 存檔
-
         more:
             other: 更多
 
@@ -60,16 +48,13 @@ widget:
 search:
     title:
         other: 搜尋
-
     placeholder:
         other: 輸入關鍵字...
-
     resultTitle:
         other: "#PAGES_COUNT 項結果（#TIME_SECONDS 秒）"
 
 footer:
     builtWith:
         other: 使用 {{ .Generator }} 建立
-
     designedBy:
-        other: 由 {{ .DesignedBy }} 設計的 {{ .Theme }}  主題
+        other: 修改自 {{ .DesignedBy }} 設計的 {{ .Theme }}  主題
