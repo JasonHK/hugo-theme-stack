@@ -58,4 +58,4 @@ footer:
     builtWith:
         other: Built with {{ .Generator }}
     designedBy:
-        other: Modified from {{ .Theme }} designed by {{ .DesignedBy }}
+        other: Theme modified from {{ .Theme }} designed by {{ .DesignedBy }}
