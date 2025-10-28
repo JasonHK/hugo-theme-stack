@@ -6,7 +6,7 @@ darkMode:
 
 list:
     page:
-        other: "第 {{ .Count }} 頁"
+        other: "共 {{ .Count }} 項"
 
     section:
         other: 區段
@@ -30,6 +30,10 @@ article:
     readingTime:
         other: "閱讀時間：{{ .Count }} 分鐘"
 
+archives:
+    categories:
+        other: 分類
+
 notFound:
     title:
         other: 找不到
@@ -48,6 +52,7 @@ widget:
     tagCloud:
         title:
             other: 標籤
+
     categoriesCloud:
         title:
             other: 分類
@@ -60,7 +65,7 @@ search:
         other: 輸入關鍵字...
 
     resultTitle:
-        other: "#PAGES_COUNT 個結果（#TIME_SECONDS 秒）"
+        other: "#PAGES_COUNT 項結果（#TIME_SECONDS 秒）"
 
 footer:
     builtWith:
