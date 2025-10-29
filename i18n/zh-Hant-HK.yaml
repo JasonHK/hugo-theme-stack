@@ -20,7 +20,7 @@ article:
     relatedContent:
         other: 相關文章
     lastUpdatedOn:
-        other: 最後更新
+        other: 最後更新於
     readingTime:
         other: 閱讀時間：{{ .Count }} 分鐘
 
