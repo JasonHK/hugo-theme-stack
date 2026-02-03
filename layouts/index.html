@@ -2,8 +2,10 @@
     {{- $paginator := partial "helper/paginator.html" . -}}
 
     <section class="article-list">
-        {{ range $index, $element := $paginator.Pages }}
-            {{ partial "article-list/default" . }}
+        {{ if $paginator }}
+            {{ range $index, $element := $paginator.Pages }}
+                {{ partial "article-list/default" . }}
+            {{ end }}
         {{ end }}
     </section>
 
